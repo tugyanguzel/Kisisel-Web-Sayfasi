@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding-top: 180px;
+    background: url(dentist-4275389_1920.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+.box{
+    width: 380px;
+    background: rgb(136, 204, 241);
+    padding: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+    font-family: sans-serif;
+    
+
+}
+.box img{
+    width: 400px;
+    height: 335px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9s);
+}
+.box h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.box li a{
+    color: #fff;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: rgb(214, 155, 246);
+}
